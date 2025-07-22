@@ -106,7 +106,7 @@ export default function VehicleApp() {
         center={center as [number, number]}
         zoom={10}
         scrollWheelZoom={false}
-        style={{ height: "400px", width: "600px", marginTop: "40px" }}
+        style={{ height: "400px", width: "100%", marginTop: "40px" }}
       >
         <TileLayer
           attribution='&copy; <a href="https://osm.org/copyright">OpenStreetMap</a>'
