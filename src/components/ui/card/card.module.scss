@@ -1,0 +1,67 @@
+.card {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 16px;
+  transition: transform 0.2s ease;
+  border: 1px solid #eee;
+
+  &:hover {
+    transform: translateY(-4px);
+  }
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #1a1a1a;
+
+  span {
+    font-weight: 400;
+    color: #555;
+  }
+}
+
+.id {
+  font-size: 14px;
+  color: #aaa;
+}
+
+.details {
+  font-size: 16px;
+  color: #333;
+  line-height: 1.4;
+
+  p {
+    margin: 4px 0;
+  }
+}
+
+.actions {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.editForm {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.buttonGroup {
+  display: flex;
+  gap: 12px;
+  justify-content: flex-end;
+}
