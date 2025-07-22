@@ -5,7 +5,7 @@ import {
   useDispatch as dispatchHook,
   useSelector as selectorHook
 } from 'react-redux';
-import { vehicleSlice } from './Slice/vehicleSlice';
+import { vehicleSlice } from './slice/vehicleSlice';
 
 const rootReducer = {
   vehicles: vehicleSlice.reducer,  // ключ здесь — vehicles

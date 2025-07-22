@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import { Input } from "../input/input"; // путь к Input компоненту
-import { Button } from "../button/button";
+import { Input } from "../../components/ui/input/input"; // путь к Input компоненту
+import { Button } from "../../components/ui/button/button";
 import { TEditData, TUICardProps } from "./type";
 import styles from './card.module.scss';
 import btn from '../ui/button/button.module.scss';

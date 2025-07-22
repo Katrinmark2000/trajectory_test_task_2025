@@ -5,11 +5,11 @@ import {
   deleteVehicle,
   fetchVehicles,
   updateVehicle,
-} from "../Slice/vehicleSlice";
+} from "../slice/vehicleSlice";
 import { RootState } from "../store";
 import { Button } from "../components/ui/button/button";
 import styles from "./vehicleApp.module.scss";
-import { Card } from "../components/ui/card/card";
+import { Card } from "../features/card/card";
 
 import "leaflet/dist/leaflet.css";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
